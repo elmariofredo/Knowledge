@@ -1,7 +1,7 @@
 Knowledge-base
 ==============
 
-[![Build Status](https://travis-ci.org/elmariofredo/Knowledge-base.svg?branch=master)](https://travis-ci.org/elmariofredo/Knowledge-base)
+[![Build Status](https://travis-ci.org/elmariofredo/Knowledge.svg?branch=master)](https://travis-ci.org/elmariofredo/Knowledge)
 
 
 Thing Schema:
