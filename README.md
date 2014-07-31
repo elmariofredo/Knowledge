@@ -10,6 +10,8 @@ Thing Schema:
  * Example - Simplest way to show how thing works
  * Relations - Relation to other thing(s)
  * References - Url(s) to sources
+ * User approved
+ * User revised
 
 
 # Todo:

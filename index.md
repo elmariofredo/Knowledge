@@ -5,6 +5,20 @@
     References:
       http://mitpress.mit.edu/sicp/full-text/book/book.html
 
+### [ Primitives ]
+
+    basic type is a data type provided by a programming language as a basic building block.
+
+    References:
+      http://en.wikipedia.org/wiki/Primitive_data_type
+
+### [ Objects ]
+
+    particular instance of a class where the object can be a combination of variables, functions, and data structures.
+
+    References:
+      http://en.wikipedia.org/wiki/Object_(computer_science)
+
 ### [ Testing ]
 
 #### [ Domain Driven Design ]
@@ -38,7 +52,7 @@
 
     The entire application is tested in a real-world scenario such as communicating with the database, network, hardware and other applications.
 
-    
+
 
 #### [ Unit test ]
 
