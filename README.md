@@ -17,6 +17,7 @@ Thing Schema:
 # Todo:
 
 - [ ] Create structure single file/multiple files/subfolders
+- [ ] Add multi language support
 - [ ] Add tests
  - [ ] All records should include
     - [ ] Description

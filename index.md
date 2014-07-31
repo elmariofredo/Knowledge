@@ -201,6 +201,13 @@
 
 ### [ Javascript ]
 
+#### [ Auto-boxing ]
+
+    Whenever you access or assign to a property of a number, string or boolean, a temporary object value (of the Number, String or Boolean class, respectively) is created with the same naked value as the primitive value, but that temporary object is only available to that property access, and does not replace the primitive value that your variable references.
+
+    References:
+      http://princepthomas.blogspot.cz/2011/07/auto-boxing-javascript-primitive-types.html
+
 #### [ Streams ]
 
     References:
