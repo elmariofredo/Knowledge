@@ -23,4 +23,5 @@ Thing Schema:
     - [ ] Example
     - [ ] References
  - [ ] KB should not be older than one week
+ - [ ] Thing should not be unrevised more than one year
 - [ ] Automated export to github page
