@@ -1,5 +1,25 @@
 # Mario Vejlupek - Dictionary
 
+## [ User Experience ]
+
+  User experience (UX) involves a person's behaviors, attitudes, and emotions about using a particular product, system or service.
+
+  References:
+    https://en.wikipedia.org/wiki/User_experience
+
+### [ HEART ]
+
+  Framework for UX metrics it means:
+
+    Happiness: measures of user attitudes, often collected via survey. For example: satisfaction, perceived ease of use, and net-promoter score.
+    Engagement: level of user involvement, typically measured via behavioral proxies such as frequency, intensity, or depth of interaction over some time period. Examples might include the number of visits per user per week or the number of photos uploaded per user per day.
+    Adoption: new users of a product or feature. For example: the number of accounts created in the last seven days or the percentage of Gmail users who use labels.
+    Retention: the rate at which existing users are returning. For example: how many of the active users from a given time period are still present in some later time period? You may be more interested in failure to retain, commonly known as “churn.”
+    Task success: this includes traditional behavioral metrics of user experience, such as efficiency (e.g. time to complete a task), effectiveness (e.g. percent of tasks completed), and error rate. This category is most applicable to areas of your product that are very task-focused, such as search or an upload flow.
+
+  References:
+    http://www.gv.com/lib/how-to-choose-the-right-ux-metrics-for-your-product
+
 ## [ Development ]
 
     References:
@@ -20,6 +40,10 @@
       http://en.wikipedia.org/wiki/Object_(computer_science)
 
 ### [ Testing ]
+
+
+    References:
+
 
 #### [ Domain Driven Design ]
 
@@ -60,6 +84,7 @@
 
     References:
       http://en.wikipedia.org/wiki/Unit_testing
+      http://andyshora.com/unit-testing-best-practices-angularjs.html
 
 #### [ Functional test ]
 
@@ -80,7 +105,10 @@
 
 ### [ Technical Debt ]
 
-    During the planning or execution of a software project, decisions are made to defer necessary work
+    During the planning or execution of a software project, decisions are made to defer necessary work.
+
+    Note:
+      There should be always visible list of technical debts with possible outcomes.
 
     References:
       http://c2.com/cgi/wiki?TechnicalDebt
@@ -201,6 +229,14 @@
 
 ### [ Javascript ]
 
+#### [ Callbacks ]
+
+    Is function passed to another function as argument and executed when needed, usually when we finish some IO processing.
+
+#### [ Event Emitters ]
+
+    Many objects in Node emit events: a net.Server emits an event each time a peer connects to it, a fs.readStream emits an event when the file is opened. All objects which emit events are instances of events.EventEmitter. You can access this module by doing: require("events");
+
 #### [ Auto-boxing ]
 
     Whenever you access or assign to a property of a number, string or boolean, a temporary object value (of the Number, String or Boolean class, respectively) is created with the same naked value as the primitive value, but that temporary object is only available to that property access, and does not replace the primitive value that your variable references.
@@ -232,6 +268,19 @@
 
     Calling f.bind(someObject) creates a new function with the same body and scope as f, but where this occurs in the original function, in the new function it is permanently bound to the first argument of bind, regardless of how the function is being used.
 
+    Example:
+      ```javascript
+      var bind = function(context, func) {
+        return func.apply(context);
+      }
+
+      bind({name: "Something"}, function() {
+        return this.name;
+      });
+
+      "Something"
+      ```
+
 #### [ Buffer ]
 
 #### [ Promises ]
@@ -250,9 +299,24 @@
 
 ##### [ Prototype ]
 
-    Object.getPrototypeOf()
+    Object that provides shared properties for other objects.
+
+    Example:
+
+      ```javascript
+      var a = function(){};
+      a.prototype.yay = 'yay';
+      var x = new a();
+      x.__proto__
+      > Object {yay: "yay"}
+      Object.getPrototypeOf(x);
+      > Object {yay: "yay"}
+      Object.getPrototypeOf(x) === a.prototype
+      > true
+      ```
 
     References:
+      http://mathieularose.com/javascript-prototype/
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf
 
 ##### [ Generator ]
@@ -273,6 +337,10 @@
 
 #### [ Strict Mode ]
 
+    Is a way to opt in to a restricted variant of JavaScript
+
+    References:
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
 
 ### [ HTML ]
 
@@ -312,25 +380,28 @@
 
     Really stupid interview test!
 
-    var i;
+    Example:
+      ```javascript
+      var i;
 
-    for (i = 1; i < 101; i = i + 1) {
+      for (i = 1; i < 101; i = i + 1) {
 
-        if ((i % 3 === 0) && (i % 5 === 0)) {
-            listItem = "fizzbuzz";
-        }
-        else if (i % 3 === 0) {
-            listItem = "fizz";
-        }
-        else if (i % 5 === 0) {
-            listItem = "buzz";
-        }
-        else {
-            listItem = i;
-        }
+          if ((i % 3 === 0) && (i % 5 === 0)) {
+              listItem = "fizzbuzz";
+          }
+          else if (i % 3 === 0) {
+              listItem = "fizz";
+          }
+          else if (i % 5 === 0) {
+              listItem = "buzz";
+          }
+          else {
+              listItem = i;
+          }
 
-        console.log(listItem);
-    }
+          console.log(listItem);
+      }
+      ```
 
 ### [ Password ]
 
