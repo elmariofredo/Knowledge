@@ -6,6 +6,8 @@
 
   References:
     https://en.wikipedia.org/wiki/User_experience
+    http://www.guidebookgallery.org/guis
+    http://www.webdesignerdepot.com/2009/03/operating-system-interface-design-between-1981-2009/
 
 ### [ HEART ]
 
@@ -44,6 +46,13 @@
 
     References:
 
+
+#### [ Test Harness ]
+
+    Think of a Test Harness as an 'enabler' that actually does all the work of (1)executing tests using a (2)test library and (3)generating reports. It would require that your test scripts are designed to handle different (4)test data and (5)test scenarios.
+
+    References:
+      https://stackoverflow.com/questions/11625351/what-is-test-harness
 
 #### [ Domain Driven Design ]
 
@@ -117,6 +126,8 @@
 
     References:
       http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+
+#### [ Duck Typing ]
 
 #### [ Singleton ]
 #### [ Factory ]
@@ -204,8 +215,9 @@
 #### [ REST ]
 
     References:
-      http://restful-api-design.readthedocs.org/
+      http://restful-api-design.readthedocs.org
       https://github.com/interagent/http-api-design
+      http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
 
 #### [ Collection ]
 
@@ -287,7 +299,12 @@
 
 #### [ ES6 ]
 
+    ECMAScript 6 new implementation of Javascript with new awesome features, code name Harmony.
+
     References:
+      http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts&s=harmony#draft_specification_for_es.next_ecma-262_edition_6
+      https://github.com/lukehoban/es6features
+      https://kangax.github.io/compat-table/es6/
 
 ##### [ Closure ]
 
@@ -322,7 +339,9 @@
 ##### [ Generator ]
 
       References:
+        http://wiki.ecmascript.org/doku.php?id=harmony:generators
         http://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/
+        https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 
 ###### [ Yield ]
 
