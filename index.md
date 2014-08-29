@@ -22,11 +22,17 @@
   References:
     http://www.gv.com/lib/how-to-choose-the-right-ux-metrics-for-your-product
 
-## [ Development ]
+## [ Programing ]
 
     References:
       http://mitpress.mit.edu/sicp/full-text/book/book.html
       http://resrc.io/list/10/list-of-free-programming-books/#nodejs
+
+### [ Functional ]
+
+### [ Imperative ]
+
+### [ Declarative ]
 
 ### [ Primitives ]
 
@@ -182,7 +188,7 @@
 
 #### [ Parent References ]
 
-    Tree structure pattern where each record has parent refenrence like this:
+    Tree structure pattern where each record has parent reference like this:
 
     ```
     db.categories.insert( { _id: "MongoDB", parent: "Databases" } )
@@ -291,6 +297,11 @@
       http://www.jongleberry.com/understanding-csrf.html
 
 ### [ Javascript ]
+
+#### Node.js
+
+    References:
+      
 
 #### [ Callbacks ]
 
