@@ -1,13 +1,16 @@
-### [ Primitives ]
+# [ Entities ]
 
-    basic type is a data type provided by a programming language as a basic building block.
 
-    References:
-      http://en.wikipedia.org/wiki/Primitive_data_type
+## [ Primitives ]
 
-### [ Objects ]
+  basic type is a data type provided by a programming language as a basic building block.
 
-    particular instance of a class where the object can be a combination of variables, functions, and data structures.
+  References:
+    http://en.wikipedia.org/wiki/Primitive_data_type
 
-    References:
-      http://en.wikipedia.org/wiki/Object_(computer_science)
+## [ Objects ]
+
+  particular instance of a class where the object can be a combination of variables, functions, and data structures.
+
+  References:
+    http://en.wikipedia.org/wiki/Object_(computer_science)
