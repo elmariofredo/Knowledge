@@ -16,14 +16,14 @@
 
 ##❯ Test-driven development (TDD)
 
-  1. Write unit/functional/acceptance test
-  2. Check that unit/functional/acceptance test is failing
-  3. Write code
-  4. Run all tests
-  5. Cleanup code
-  6. Write unit/functional/acceptance test...
+1. Write unit/functional/acceptance test
+2. Check that unit/functional/acceptance test is failing
+3. Write code
+4. Run all tests
+5. Cleanup code
+6. Write unit/functional/acceptance test...
 
-  Example:
+Example:
 ```javascript
 suite('Array', function(){
   setup(function(){
