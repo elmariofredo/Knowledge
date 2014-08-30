@@ -14,14 +14,14 @@
   References:
     http://www.infoq.com/articles/ddd-in-practice
 
-##❯ Test-driven development - TDD
+##❯ Test-driven development (TDD)
 
-  # Write unit/functional/acceptance test
-  # Check that unit/functional/acceptance test is failing
-  # Write code
-  # Run all tests
-  # Cleanup code
-  # Write unit/functional/acceptance test...
+  1. Write unit/functional/acceptance test
+  2. Check that unit/functional/acceptance test is failing
+  3. Write code
+  4. Run all tests
+  5. Cleanup code
+  6. Write unit/functional/acceptance test...
 
   Example:
 ```javascript
