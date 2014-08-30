@@ -1,0 +1,5 @@
+### [ Functional ]
+
+### [ Imperative ]
+
+### [ Declarative ]
