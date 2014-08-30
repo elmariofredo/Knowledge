@@ -24,19 +24,19 @@
   # Write unit/functional/acceptance test...
 
   Example:
-    ```javascript
-    suite('Array', function(){
-      setup(function(){
-        // ...
-      });
+  ```javascript
+  suite('Array', function(){
+    setup(function(){
+      // ...
+    });
 
-      suite('#indexOf()', function(){
-        test('should return -1 when not present', function(){
-          assert.equal(-1, [1,2,3].indexOf(4));
-        });
+    suite('#indexOf()', function(){
+      test('should return -1 when not present', function(){
+        assert.equal(-1, [1,2,3].indexOf(4));
       });
     });
-    ```
+  });
+  ```
 
   References:
     http://en.wikipedia.org/wiki/Test-driven_development
@@ -46,19 +46,19 @@
   Superset of TDD with "natural" language which can be written by anyone, a.k.a. TDD done right.
 
   Example:
-    ```javascript
-    describe('Array', function(){
-      before(function(){
-        // ...
-      });
+  ```javascript
+  describe('Array', function(){
+    before(function(){
+      // ...
+    });
 
-      describe('#indexOf()', function(){
-        it('should return -1 when not present', function(){
-          [1,2,3].indexOf(4).should.equal(-1);
-        });
+    describe('#indexOf()', function(){
+      it('should return -1 when not present', function(){
+        [1,2,3].indexOf(4).should.equal(-1);
       });
     });
-    ```
+  });
+  ```
 
   References:
     http://en.wikipedia.org/wiki/Behavior-driven_development
