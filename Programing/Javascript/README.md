@@ -45,17 +45,17 @@
   Calling f.bind(someObject) creates a new function with the same body and scope as f, but where this occurs in the original function, in the new function it is permanently bound to the first argument of bind, regardless of how the function is being used.
 
   Example:
-    ```javascript
-    var bind = function(context, func) {
-      return func.apply(context);
-    }
+```javascript
+var bind = function(context, func) {
+  return func.apply(context);
+}
 
-    bind({name: "Something"}, function() {
-      return this.name;
-    });
+bind({name: "Something"}, function() {
+  return this.name;
+});
 
-    "Something"
-    ```
+"Something"
+```
 
 ## [ Buffer ]
 
@@ -84,17 +84,17 @@
 
   Example:
 
-    ```javascript
-    var a = function(){};
-    a.prototype.yay = 'yay';
-    var x = new a();
-    x.__proto__
-    > Object {yay: "yay"}
-    Object.getPrototypeOf(x);
-    > Object {yay: "yay"}
-    Object.getPrototypeOf(x) === a.prototype
-    > true
-    ```
+```javascript
+var a = function(){};
+a.prototype.yay = 'yay';
+var x = new a();
+x.__proto__
+> Object {yay: "yay"}
+Object.getPrototypeOf(x);
+> Object {yay: "yay"}
+Object.getPrototypeOf(x) === a.prototype
+> true
+```
 
   References:
     http://mathieularose.com/javascript-prototype/
