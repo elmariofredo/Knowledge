@@ -1,6 +1,6 @@
-# [ Caveats ]
+# Caveats
 
-## [ Technical Debt ]
+##❯ Technical Debt
 
   During the planning or execution of a software project, decisions are made to defer necessary work.
 

@@ -1,6 +1,6 @@
-# [ Tree Structure ]
+# Tree Structure
 
-## [ Parent References ]
+##❯ Parent References
 
   Tree structure pattern where each record has parent reference like this:
 
@@ -15,7 +15,7 @@ db.categories.insert( { _id: "Databases", parent: "Programming" } )
   References:
     http://docs.mongodb.org/manual/tutorial/model-tree-structures-with-parent-references/
 
-## [ Child References ]
+##❯ Child References
 
   Tree structure pattern where each record store array of node child id's like this:
 
@@ -30,7 +30,7 @@ db.categories.insert( { _id: "Databases", children: [ "MongoDB", "dbm" ] } )
   References:
     http://docs.mongodb.org/manual/tutorial/model-tree-structures-with-child-references/
 
-## [ Array of Ancestors ]
+##❯ Array of Ancestors
 
   Tree structure pattern where we store array of ancestors along with parent node like this:
 
@@ -45,7 +45,7 @@ db.categories.insert( { _id: "Databases", ancestors: [ "Books", "Programming" ],
   References:
     http://docs.mongodb.org/manual/tutorial/model-tree-structures-with-ancestors-array/
 
-## [ Materialized Paths ]
+##❯ Materialized Paths
 
   Tree structure pattern where as in **Array of Ancestors** are stored ancestor but as comma delimited string without parent node like this
 
@@ -58,7 +58,7 @@ db.categories.insert( { _id: "Databases", path: ",Books,Programming," } )
   References:
     http://docs.mongodb.org/manual/tutorial/model-tree-structures-with-materialized-paths/
 
-## [ Nested Sets ]
+##❯ Nested Sets
 
   The Nested Sets pattern identifies each node in the tree as stops in a round-trip traversal of the tree. The application visits each node in the tree twice; first during the initial trip, and second during the return trip. The Nested Sets pattern stores each tree node in a document; in addition to the tree node, document stores the id of node’s parent, the node’s initial stop in the left field, and its return stop in the right field.
 

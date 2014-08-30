@@ -1,4 +1,4 @@
-# [ User Experience ]
+# User Experience
 
   User experience (UX) involves a person's behaviors, attitudes, and emotions about using a particular product, system or service.
 
@@ -7,7 +7,7 @@
     http://www.guidebookgallery.org/guis
     http://www.webdesignerdepot.com/2009/03/operating-system-interface-design-between-1981-2009/
 
-## [ HEART ]
+##❯ HEART
 
   Framework for UX metrics it means:
 

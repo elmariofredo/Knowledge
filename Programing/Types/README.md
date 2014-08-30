@@ -1,7 +1,7 @@
-# [ Types ]
+# Types
 
-## [ Functional ]
+##❯ Functional
 
-## [ Imperative ]
+##❯ Imperative
 
-## [ Declarative ]
+##❯ Declarative

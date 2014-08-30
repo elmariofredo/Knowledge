@@ -1,11 +1,11 @@
-# [ Other ]
+# Other
 
-## [ Password ]
+##❯ Password
 
   References:
     http://www.sitepoint.com/good-users-bad-password-ux/
 
-## [ SemVer ]
+##❯ SemVer
 
   References:
     http://www.sitepoint.com/semantic-versioning-why-you-should-using
