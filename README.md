@@ -4,7 +4,7 @@ Knowledge-base
 [![Build Status](https://travis-ci.org/elmariofredo/Knowledge.svg?branch=master)](https://travis-ci.org/elmariofredo/Knowledge)
 
 
-Thing Schema:
+[Thing Schema](https://github.com/apiaryio/mson):
  * Name - short name
  * Description - Full name with description
  * Example - Simplest way to show how thing works
