@@ -132,3 +132,20 @@ New architectural approach to replace traditional MVC like pattern. Broght to pu
 
 References:
   https://docs.google.com/a/vejlupek.cz/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_1703
+
+## Currying
+
+It's special kind of function construct. If you give a curried function, less arguments, then it expects, it will give you back, a function, which has been fed the arguments you gave it, and will accept the remaining ones. In the example above, we first gave it 4 (myFunc(4)), and it was waiting for another number, and we gave it 9.
+
+Example:
+
+```javascript
+alert(myFunc(2,2));      // alerts 4
+var adds4 = myFunc(4);   // adds4, is now a function,
+                         // which adds 4, to it's argument.
+alert(adds4(5));         // alerts 9.
+```
+
+References:
+  https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe
+  http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html
