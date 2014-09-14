@@ -130,28 +130,20 @@ bind({name: "Something"}, function() {
 
 ##❯ Promises
 
-##❯ ES6
 
-  ECMAScript 6 new implementation of Javascript with new awesome features, code name Harmony.
+##❯ Closure
 
-  References:
-    http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts&s=harmony#draft_specification_for_es.next_ecma-262_edition_6
-    https://github.com/lukehoban/es6features
-    https://kangax.github.io/compat-table/es6/
+The inner function forms a closure: the inner function can use the arguments and variables of the outer function, while the outer function cannot use the arguments and variables of the inner function.
 
-###❯❯ Closure
+References:
+https://stackoverflow.com/questions/111102/how-do-javascript-closures-work?page=1&tab=votes#tab-top
+http://web.archive.org/web/20080209105120/http://blog.morrisjohns.com/javascript_closures_for_dummies
 
-  The inner function forms a closure: the inner function can use the arguments and variables of the outer function, while the outer function cannot use the arguments and variables of the inner function.
+##❯ Prototype
 
-  References:
-    https://stackoverflow.com/questions/111102/how-do-javascript-closures-work?page=1&tab=votes#tab-top
-    http://web.archive.org/web/20080209105120/http://blog.morrisjohns.com/javascript_closures_for_dummies
+Object that provides shared properties for other objects.
 
-###❯❯ Prototype
-
-  Object that provides shared properties for other objects.
-
-  Example:
+Example:
 
 ```javascript
 var a = function(){};
@@ -165,20 +157,29 @@ Object.getPrototypeOf(x) === a.prototype
 > true
 ```
 
+References:
+http://mathieularose.com/javascript-prototype/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf
+
+##❯ ES6
+
+  ECMAScript 6 new implementation of Javascript with new awesome features, code name Harmony.
+
   References:
-    http://mathieularose.com/javascript-prototype/
-    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf
+    http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts&s=harmony#draft_specification_for_es.next_ecma-262_edition_6
+    https://github.com/lukehoban/es6features
+    https://kangax.github.io/compat-table/es6/
 
 ###❯❯ Generator
 
-  References:
-    http://wiki.ecmascript.org/doku.php?id=harmony:generators
-    http://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/
-    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+References:
+http://wiki.ecmascript.org/doku.php?id=harmony:generators
+http://strongloop.com/strongblog/how-to-generators-node-js-yield-use-cases/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
 
 ####❯❯❯ Yield
 
-  The yield keyword is used to pause and resume a generator.
+The yield keyword is used to pause and resume a generator.
 
 ####❯❯❯ Reflect
 
@@ -186,21 +187,21 @@ Object.getPrototypeOf(x) === a.prototype
 
 ####❯❯❯ Thunk
 
-  Is a subroutine that is created, often automatically, to assist a call to another subroutine
+Is a subroutine that is created, often automatically, to assist a call to another subroutine
 
 ##❯ Strict Mode
 
-  Is a way to opt in to a restricted variant of JavaScript. Prevent global variable leak. `this` will be the global object or undefined
+Is a way to opt in to a restricted variant of JavaScript. Prevent global variable leak. `this` will be the global object or undefined
 
-  References:
-    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
+References:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
 
 ##❯ Flux
 
 New architectural approach to replace traditional MVC like pattern. Broght to public by Facebook with their react framework. It's trying to solve development issues on large projects. Includes JSX bit different javascript impementation and Virtual DOM to use diffs when updating DOM.
 
 References:
-  https://docs.google.com/a/vejlupek.cz/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_1703
+https://docs.google.com/a/vejlupek.cz/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_1703
 
 ## Currying
 
@@ -216,5 +217,5 @@ alert(adds4(5));         // alerts 9.
 ```
 
 References:
-  https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe
-  http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html
+https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe
+http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html
