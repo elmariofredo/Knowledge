@@ -17,8 +17,21 @@
 
   Whenever you access or assign to a property of a number, string or boolean, a temporary object value (of the Number, String or Boolean class, respectively) is created with the same naked value as the primitive value, but that temporary object is only available to that property access, and does not replace the primitive value that your variable references.
 
-  References:
-      http://princepthomas.blogspot.cz/2011/07/auto-boxing-javascript-primitive-types.html
+Example:
+```javascript
+// You can't manipulate object which your primitive value reference
+// This value is Auto-boxed to object it repesent but it's not full object
+var str = 'primitive-valued string literal';
+str.split = function(){ return 'overridden!'; };
+console.log( str.split(' ') ); //=> ["primitive-valued", "string", "literal"]
+
+// You can when using proper object
+var str = new String( 'primitive-valued string literal' );
+str.split = function(){ return 'overridden!'; };
+console.log( str.split(' ') ); //=> "overridden!" that's more like it
+```  
+
+References: http://princepthomas.blogspot.cz/2011/07/auto-boxing-javascript-primitive-types.html
 
 ##❯ Streams
 
