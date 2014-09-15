@@ -25,3 +25,4 @@ The yield keyword is used to pause and resume a generator.
 ##❯ Thunk
 
 Is a subroutine that is created, often automatically, to assist a call to another subroutine
+This approach is going to be deprecated as JS is going to be more Promised enabled, see https://github.com/visionmedia/co/issues/143
