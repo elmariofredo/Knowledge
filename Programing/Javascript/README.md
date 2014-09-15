@@ -189,6 +189,45 @@ The yield keyword is used to pause and resume a generator.
 
 Is a subroutine that is created, often automatically, to assist a call to another subroutine
 
+##❯ ES7
+
+Ecma Script 7
+
+Should be focused on parallelism, concurrency, asynchrony, and preparation for distribution
+
+References: http://esdiscuss.org/topic/es6-es7-es8-and-beyond-a-proposed-roadmap
+
+###❯ Async/Await
+
+With async functions (full proposal), you can await on a promise. This halts the function in a non-blocking way, waits for the promise to resolve & returns the value.
+
+Example:
+
+```javascript
+
+async function loadStory() {
+  try {
+    let story = await getJSON('story.json');
+    addHtmlToPage(story.heading);
+    for (let chapter of story.chapterURLs.map(getJSON)) {
+      addHtmlToPage((await chapter).html);
+    }
+    addTextToPage("All done");
+  } catch (err) {
+    addTextToPage("Argh, broken: " + err.message);
+  }
+  document.querySelector('.spinner').style.display = 'none';
+}
+
+// loadStory returns a promise, so you can use it in other async functions.
+(async function() {
+  await loadStory();
+  console.log("Yey, story successfully loaded!");
+}());
+```
+
+References: http://jakearchibald.com/2014/es7-async-functions/
+
 ##❯ Strict Mode
 
 Is a way to opt in to a restricted variant of JavaScript. Prevent global variable leak. `this` will be the global object or undefined
