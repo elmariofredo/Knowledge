@@ -237,7 +237,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_
 
 ##❯ Flux
 
-New architectural approach to replace traditional MVC like pattern. Broght to public by Facebook with their react framework. It's trying to solve development issues on large projects. Includes JSX bit different javascript impementation and Virtual DOM to use diffs when updating DOM.
+New architectural approach to replace traditional MVC like pattern. Brought to public by Facebook with their react framework. It's trying to solve development issues on large projects. Includes JSX bit different javascript implementation and Virtual DOM to use diffs when updating DOM.
 
 References:
 https://docs.google.com/a/vejlupek.cz/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_1703
