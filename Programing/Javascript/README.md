@@ -130,3 +130,30 @@ alert(adds4(5));         // alerts 9.
 References:
 https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe
 http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html
+
+##❯ Immediately-Invoked Function Expression - IIFE
+
+Creating function which purpose is to create own execution context
+
+Example:
+```javascript
+(function(){
+  x = 1;
+})
+console.log(x);
+> ReferenceError: x is not defined
+
+// Ignore output
+!function(){ /* code */ }();
+22.
+~function(){ /* code */ }();
+23.
+-function(){ /* code */ }();
+24.
++function(){ /* code */ }();
+
+// Another approach
+new function(){ /* code */ }
+```
+
+References: http://benalman.com/news/2010/11/immediately-invoked-function-expression/
