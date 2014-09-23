@@ -37,18 +37,28 @@ References: http://princepthomas.blogspot.cz/2011/07/auto-boxing-javascript-prim
 
 ## setTimeout
 
-  something about bind
+Timing out of function execution
+
+Resources: https://stackoverflow.com/questions/1728563/changing-the-scope-of-an-anonymous-function-on-a-settimeout-causes-a-weird-warni
 
 ##❯ Object
 
   References:
     http://helephant.com/2008/08/17/how-javascript-objects-work/
 
-##❯ this
+##❯ This
 
-  In any function, this is a reserved keyword that refers to the owner of the function. `this` is also used in event handler functions, where it refers to the element(s) that triggered the event
+In any function, this is a reserved keyword that refers to the owner of the function. `this` is also used in event handler functions, where it refers to the element(s) that triggered the event
 
-##❯ bind
+##❯ Call
+
+Call function with selected context(first argument) and pass arguments to function itself
+
+##❯ Apply
+
+Same as call but accepts array as second argument and pass it to function
+
+##❯ Bind
 
   Calling f.bind(someObject) creates a new function with the same body and scope as f, but where this occurs in the original function, in the new function it is permanently bound to the first argument of bind, regardless of how the function is being used.
 
