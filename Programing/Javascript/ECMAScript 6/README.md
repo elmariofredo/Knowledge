@@ -26,3 +26,12 @@ The yield keyword is used to pause and resume a generator.
 
 Is a subroutine that is created, often automatically, to assist a call to another subroutine
 This approach is going to be deprecated as JS is going to be more Promised enabled, see https://github.com/visionmedia/co/issues/143
+
+## Modules
+
+Way to import other sources using native API. Currently we have two standarts
+* CommonJS Modules - Node.js server
+* Asynchronous Module Definition (AMD) - RequireJS browser
+New implementation is trying to get best out of these two options.
+
+References: http://www.2ality.com/2014/09/es6-modules-final.html
