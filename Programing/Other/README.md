@@ -12,7 +12,7 @@ References:
 
 ##❯ Kitchen Sink
 
-Term referencing overblown of project by trying to include any posssible feature in it... even kitchen sink :).
+Term referencing overblown of project by trying to include any possible feature in it... even kitchen sink :).
 
 References:
   https://bugzilla.mozilla.org/show_bug.cgi?id=122411
