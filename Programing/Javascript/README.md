@@ -1,5 +1,15 @@
 # Javascript
 
+##❯ Unobtrusive JavaScript
+
+General approach to the use of JavaScript in web pages.
+
+* Separation of functionality structure/content and presentation.
+* Best practices to avoid the problems of traditional JavaScript programming (such as browser inconsistencies and lack of scalability)
+* Support old browsers and offer additional functionality to new browsers(progressive enhancement)
+
+Resources: https://en.wikipedia.org/wiki/Unobtrusive_JavaScript
+
 ##❯ Callbacks
 
   Is function passed to another function as argument and executed when needed, usually when we finish some IO processing.
