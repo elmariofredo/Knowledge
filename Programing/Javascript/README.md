@@ -165,11 +165,8 @@ console.log(x);
 
 // Ignore output
 !function(){ /* code */ }();
-22.
 ~function(){ /* code */ }();
-23.
 -function(){ /* code */ }();
-24.
 +function(){ /* code */ }();
 
 // Another approach
