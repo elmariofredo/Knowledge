@@ -177,3 +177,21 @@ new function(){ /* code */ }
 ```
 
 References: http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+
+##❯ requestAnimationFrame (rAF)
+
+Browser api to controll animation execution to get it sync with redraw process and on highest speed possible(60fps).
+
+Resources:
+  http://creativejs.com/resources/requestanimationframe/
+
+Example:
+```javascript
+var body = document.querySelector('body');
+body.style.fontSize = 0
+var draw = function(){
+  requestAnimationFrame(draw);
+  body.style.fontSize=parseInt(body.style.fontSize)+1+'px';
+}
+draw();
+```
