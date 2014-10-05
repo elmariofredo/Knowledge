@@ -6,6 +6,7 @@
     http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts&s=harmony#draft_specification_for_es.next_ecma-262_edition_6
     https://github.com/lukehoban/es6features
     https://kangax.github.io/compat-table/es6/
+    https://github.com/rwaldron/tc39-notes
 
 ##❯ Generator
 

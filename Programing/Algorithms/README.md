@@ -38,6 +38,9 @@ def bubble_sort(array)
 end
 ```
 
+References:
+  http://www.growingwiththeweb.com/2014/02/bubble-sort.html
+
 ###❯ Merge Sort
 
 Dividing array into parts and re-collect each part according to sorting algorithm, than do the same between each part.
