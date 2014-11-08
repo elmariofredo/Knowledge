@@ -133,6 +133,7 @@ New architectural approach to replace traditional MVC like pattern. Brought to p
 
 References:
 https://docs.google.com/a/vejlupek.cz/presentation/d/1afMLTCpRxhJpurQ97VBHCZkLbR1TEsRnd3yyxuSQ5YY/edit#slide=id.g380053cce_1703
+http://scotch.io/tutorials/javascript/getting-to-know-flux-the-react-js-architecture
 
 ##❯ Currying
 
