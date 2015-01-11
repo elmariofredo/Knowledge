@@ -34,9 +34,14 @@ console.log( str.split(' ') ); //=> ["primitive-valued", "string", "literal"]
 var str = new String( 'primitive-valued string literal' );
 str.split = function(){ return 'overridden!'; };
 console.log( str.split(' ') ); //=> "overridden!" that's more like it
-```  
 
-References: http://princepthomas.blogspot.cz/2011/07/auto-boxing-javascript-primitive-types.html
+// Note that
+String('koko') === 'koko'
+```
+
+References:
+  http://princepthomas.blogspot.cz/2011/07/auto-boxing-javascript-primitive-types.html
+  http://www.acnenomor.com/3801378p1/javascript-string-literal-vs-string-object
 
 ##❯ Streams
 
@@ -89,6 +94,11 @@ bind({name: "Something"}, function() {
 
 ##❯ Promises
 
+Promise represents a value that is not yet known a deferred represents work that is not yet finished.
+
+
+References:
+  http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt1-theory-and-semantics
 
 ##❯ Closure
 
@@ -102,23 +112,29 @@ http://web.archive.org/web/20080209105120/http://blog.morrisjohns.com/javascript
 
 Object that provides shared properties for other objects.
 
+`cat.__proto__` is internal reference to prototype object and `Animal.prototype` is reference to object from which is `__proto__` builded. `__proto__` is not standart JS implementation and thus should be never used.
+
+By default `Animal.prototype` is set to `Object.prototype` as all objects inherit from `Object`
+
 Example:
 
 ```javascript
-var a = function(){};
-a.prototype.yay = 'yay';
-var x = new a();
-x.__proto__
+var Animal = function(){};
+Animal.prototype.yay = 'yay';
+var cat = new Animal();
+cat.__proto__
 > Object {yay: "yay"}
-Object.getPrototypeOf(x);
+Object.getPrototypeOf( cat );
 > Object {yay: "yay"}
-Object.getPrototypeOf(x) === a.prototype
+Object.getPrototypeOf( cat ) === Animal.prototype
 > true
 ```
 
 References:
 http://mathieularose.com/javascript-prototype/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf
+http://stackoverflow.com/questions/650764/how-does-proto-differ-from-constructor-prototype
+http://stackoverflow.com/questions/2344493/what-is-the-default-prototype-for-custom-function-in-javascript
 
 ##❯ Strict Mode
 
