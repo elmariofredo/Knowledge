@@ -5,12 +5,14 @@
 ###❯❯ REST
 
   References:
-    http://restful-api-design.readthedocs.org
-    https://github.com/interagent/http-api-design
-    http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
-    http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
-    http://jsonapi.org/
-    http://www.restapitutorial.com/
+  
+    - http://restful-api-design.readthedocs.org  
+    - https://github.com/interagent/http-api-design  
+    - https://github.com/WhiteHouse/api-standards
+    - http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html
+    - http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api
+    - http://jsonapi.org/
+    - http://www.restapitutorial.com/
 
 ####❯❯❯ Collection
 
