@@ -6,6 +6,7 @@
   
   References:
     http://www.objectmentor.com/omSolutions/oops_what.html
+    https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29
 ###❯❯ Patterns
 
   References:
